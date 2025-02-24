@@ -1,0 +1,11 @@
+D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\bin\Debug\net8.0\ClothingShop.Core.deps.json
+D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\bin\Debug\net8.0\ClothingShop.Core.dll
+D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\bin\Debug\net8.0\ClothingShop.Core.pdb
+D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\obj\Debug\net8.0\ClothingShop.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\obj\Debug\net8.0\ClothingShop.Core.AssemblyInfoInputs.cache
+D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\obj\Debug\net8.0\ClothingShop.Core.AssemblyInfo.cs
+D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\obj\Debug\net8.0\ClothingShop.Core.csproj.CoreCompileInputs.cache
+D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\obj\Debug\net8.0\ClothingShop.Core.dll
+D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\obj\Debug\net8.0\refint\ClothingShop.Core.dll
+D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\obj\Debug\net8.0\ClothingShop.Core.pdb
+D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\obj\Debug\net8.0\ref\ClothingShop.Core.dll
