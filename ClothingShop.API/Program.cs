@@ -3,7 +3,9 @@ using ClothingShop.API.Middlewares;
 using ClothingShop.Application.IServices;
 using ClothingShop.Application.Mappers;
 using ClothingShop.Application.Services;
+using ClothingShop.Infrastructure;
 using ClothingShop.Infrastructure.Persistence;
+using ClothingShop.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Http.Features;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,13 +13,18 @@ var builder = WebApplication.CreateBuilder(args);
 // Addconnection string
 builder.Services.AddInfrastructure(builder.Configuration);
 
-// Add services to the container.
+// Add Dependency Injection for Repository
+//builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 // Add Dependency Injection for Service
-builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
-// Add AutoMapper
-builder.Services.AddAutoMapper(typeof(ProductMapping));
+// Add AutoMapper in Service
+builder.Services.AddAutoMapper(typeof(UserMapping));
+
+// Add AutoMapper in Repository
+builder.Services.AddAutoMapper(typeof(MapperProfile));
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -46,6 +53,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseExceptionHandler();
 
 app.UseHttpsRedirection();
 

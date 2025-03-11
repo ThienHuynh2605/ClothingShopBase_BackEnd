@@ -981,6 +981,7 @@
       },
       "ClothingShop.Infrastructure/1.0.0": {
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "ClothingShop.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.13"
         },

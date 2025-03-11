@@ -15,3 +15,4 @@ D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Application\obj\Debug
 D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Application\obj\Debug\net8.0\refint\ClothingShop.Application.dll
 D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Application\obj\Debug\net8.0\ClothingShop.Application.pdb
 D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Application\obj\Debug\net8.0\ref\ClothingShop.Application.dll
+D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Application\obj\Debug\net8.0\ClothingShop.Application.sourcelink.json

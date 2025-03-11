@@ -15,3 +15,4 @@ D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Infrastructure\obj\De
 D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Infrastructure\obj\Debug\net8.0\ref\ClothingShop.Infrastructure.dll
 D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Infrastructure\bin\Debug\net8.0\ClothingShop.Infrastructure.runtimeconfig.json
 D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Infrastructure\obj\Debug\net8.0\ClothingShop.Infrastructure.genruntimeconfig.cache
+D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Infrastructure\obj\Debug\net8.0\ClothingShop.Infrastructure.sourcelink.json

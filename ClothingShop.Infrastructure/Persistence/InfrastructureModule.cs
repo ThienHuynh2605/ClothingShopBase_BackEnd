@@ -1,5 +1,4 @@
-﻿using ClothingShop.Core.IRepositories;
-using ClothingShop.Infrastructure.Repositories;
+﻿using ClothingShop.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,7 +14,7 @@ namespace ClothingShop.Infrastructure.Persistence
             services.AddDbContext<ClothingShopDbContext>(options => options.UseSqlServer(connectionString));
 
             // Add Dependency Injection for Repositories
-            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
 
             return services;
         } 

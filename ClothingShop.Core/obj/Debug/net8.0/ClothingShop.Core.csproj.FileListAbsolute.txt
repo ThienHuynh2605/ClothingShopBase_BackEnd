@@ -9,3 +9,4 @@ D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\obj\Debug\net8.0
 D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\obj\Debug\net8.0\refint\ClothingShop.Core.dll
 D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\obj\Debug\net8.0\ClothingShop.Core.pdb
 D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\obj\Debug\net8.0\ref\ClothingShop.Core.dll
+D:\PROGRAM\.Net\VisualStudio\ClothingShopBase\ClothingShop.Core\obj\Debug\net8.0\ClothingShop.Core.sourcelink.json

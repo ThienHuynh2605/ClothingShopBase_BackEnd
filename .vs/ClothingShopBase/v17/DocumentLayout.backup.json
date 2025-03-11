@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E8C6BC4E-775C-4A78-9266-5A6A32287DDD}|ClothingShop.API\\ClothingShop.API.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C6BC4E-775C-4A78-9266-5A6A32287DDD}|ClothingShop.API\\ClothingShop.API.csproj|solutionrelative:clothingshop.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|solutionrelative:clothingshop.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A916412D-0F87-48F3-B46D-43B3F52E16AB}|ClothingShop.Infrastructure\\ClothingShop.Infrastructure.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.infrastructure\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A916412D-0F87-48F3-B46D-43B3F52E16AB}|ClothingShop.Infrastructure\\ClothingShop.Infrastructure.csproj|solutionrelative:clothingshop.infrastructure\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A916412D-0F87-48F3-B46D-43B3F52E16AB}|ClothingShop.Infrastructure\\ClothingShop.Infrastructure.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A916412D-0F87-48F3-B46D-43B3F52E16AB}|ClothingShop.Infrastructure\\ClothingShop.Infrastructure.csproj|solutionrelative:clothingshop.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.application\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|solutionrelative:clothingshop.application\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8C6BC4E-775C-4A78-9266-5A6A32287DDD}|ClothingShop.API\\ClothingShop.API.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8C6BC4E-775C-4A78-9266-5A6A32287DDD}|ClothingShop.API\\ClothingShop.API.csproj|solutionrelative:clothingshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.application\\mappers\\usermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|solutionrelative:clothingshop.application\\mappers\\usermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.application\\dtos\\userdtos\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|solutionrelative:clothingshop.application\\dtos\\userdtos\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.application\\dtos\\basedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|solutionrelative:clothingshop.application\\dtos\\basedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8C6BC4E-775C-4A78-9266-5A6A32287DDD}|ClothingShop.API\\ClothingShop.API.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.api\\middlewares\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,24 +47,12 @@
       "RelativeMoniker": "D:0:0:{DB8C51F4-2959-4394-95C5-ADDD11CEDAE3}|ClothingShop.Core\\ClothingShop.Core.csproj|solutionrelative:clothingshop.core\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|solutionrelative:clothingshop.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|solutionrelative:clothingshop.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.application\\iservices\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECDE06AA-8B2C-44AF-8E98-712AA80C7E66}|ClothingShop.Application\\ClothingShop.Application.csproj|solutionrelative:clothingshop.application\\iservices\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A916412D-0F87-48F3-B46D-43B3F52E16AB}|ClothingShop.Infrastructure\\ClothingShop.Infrastructure.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A916412D-0F87-48F3-B46D-43B3F52E16AB}|ClothingShop.Infrastructure\\ClothingShop.Infrastructure.csproj|solutionrelative:clothingshop.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB8C51F4-2959-4394-95C5-ADDD11CEDAE3}|ClothingShop.Core\\ClothingShop.Core.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.core\\irepositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB8C51F4-2959-4394-95C5-ADDD11CEDAE3}|ClothingShop.Core\\ClothingShop.Core.csproj|solutionrelative:clothingshop.core\\irepositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8C6BC4E-775C-4A78-9266-5A6A32287DDD}|ClothingShop.API\\ClothingShop.API.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8C6BC4E-775C-4A78-9266-5A6A32287DDD}|ClothingShop.API\\ClothingShop.API.csproj|solutionrelative:clothingshop.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A916412D-0F87-48F3-B46D-43B3F52E16AB}|ClothingShop.Infrastructure\\ClothingShop.Infrastructure.csproj|d:\\program\\.net\\visualstudio\\clothingshopbase\\clothingshop.infrastructure\\migrations\\20250310091648_updatebaseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A916412D-0F87-48F3-B46D-43B3F52E16AB}|ClothingShop.Infrastructure\\ClothingShop.Infrastructure.csproj|solutionrelative:clothingshop.infrastructure\\migrations\\20250310091648_updatebaseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,111 +62,168 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.API\\Program.cs",
               "RelativeDocumentMoniker": "ClothingShop.API\\Program.cs",
               "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.API\\Program.cs",
               "RelativeToolTip": "ClothingShop.API\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAmwBsAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswBkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:42:42.552Z",
+              "WhenOpened": "2025-02-14T06:42:42.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ClothingShop.API\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ClothingShop.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwDsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T09:04:01.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Core\\Exceptions\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "ClothingShop.Core\\Exceptions\\NotFoundException.cs",
-              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Core\\Exceptions\\NotFoundException.cs",
-              "RelativeToolTip": "ClothingShop.Core\\Exceptions\\NotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Infrastructure\\IRepositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "ClothingShop.Infrastructure\\IRepositories\\IUserRepository.cs",
+              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Infrastructure\\IRepositories\\IUserRepository.cs",
+              "RelativeToolTip": "ClothingShop.Infrastructure\\IRepositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:41:03.378Z",
+              "WhenOpened": "2025-03-11T03:30:06.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ErrorHandlerMiddleware.cs",
-              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.API\\Middlewares\\ErrorHandlerMiddleware.cs",
-              "RelativeDocumentMoniker": "ClothingShop.API\\Middlewares\\ErrorHandlerMiddleware.cs",
-              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.API\\Middlewares\\ErrorHandlerMiddleware.cs",
-              "RelativeToolTip": "ClothingShop.API\\Middlewares\\ErrorHandlerMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ClothingShop.Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "ClothingShop.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAA/wHkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:24:31.398Z",
+              "WhenOpened": "2025-03-10T07:31:22.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "ClothingShop.Application\\Services\\ProductService.cs",
-              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\Services\\ProductService.cs",
-              "RelativeToolTip": "ClothingShop.Application\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBIAAAAlAAAAAAAAAA==",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ClothingShop.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ClothingShop.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAwwIUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T05:11:44.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.API\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ClothingShop.API\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.API\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ClothingShop.API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T05:24:42.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Infrastructure\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "ClothingShop.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Infrastructure\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "ClothingShop.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBUAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T05:00:47.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Core\\IRepositories\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "ClothingShop.Core\\IRepositories\\IProductRepository.cs",
-              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Core\\IRepositories\\IProductRepository.cs",
-              "RelativeToolTip": "ClothingShop.Core\\IRepositories\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T04:57:43.695Z",
+              "WhenOpened": "2025-03-10T06:59:39.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\IServices\\IProductService.cs",
-              "RelativeDocumentMoniker": "ClothingShop.Application\\IServices\\IProductService.cs",
-              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\IServices\\IProductService.cs",
-              "RelativeToolTip": "ClothingShop.Application\\IServices\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAYAAAAAAAAAA==",
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "ClothingShop.Application\\IServices\\IUserService.cs",
+              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\IServices\\IUserService.cs",
+              "RelativeToolTip": "ClothingShop.Application\\IServices\\IUserService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T05:09:07.934Z",
+              "WhenOpened": "2025-03-10T07:27:32.596Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserMapping.cs",
+              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\Mappers\\UserMapping.cs",
+              "RelativeDocumentMoniker": "ClothingShop.Application\\Mappers\\UserMapping.cs",
+              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\Mappers\\UserMapping.cs",
+              "RelativeToolTip": "ClothingShop.Application\\Mappers\\UserMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T08:53:12.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetUserDto.cs",
+              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\DTOs\\UserDtos\\GetUserDto.cs",
+              "RelativeDocumentMoniker": "ClothingShop.Application\\DTOs\\UserDtos\\GetUserDto.cs",
+              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\DTOs\\UserDtos\\GetUserDto.cs",
+              "RelativeToolTip": "ClothingShop.Application\\DTOs\\UserDtos\\GetUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T09:48:49.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseDto.cs",
+              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\DTOs\\BaseDto.cs",
+              "RelativeDocumentMoniker": "ClothingShop.Application\\DTOs\\BaseDto.cs",
+              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\DTOs\\BaseDto.cs",
+              "RelativeToolTip": "ClothingShop.Application\\DTOs\\BaseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T09:51:37.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorHandlerMiddleware.cs",
+              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.API\\Middlewares\\ErrorHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "ClothingShop.API\\Middlewares\\ErrorHandlerMiddleware.cs",
+              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.API\\Middlewares\\ErrorHandlerMiddleware.cs",
+              "RelativeToolTip": "ClothingShop.API\\Middlewares\\ErrorHandlerMiddleware.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:24:31.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Core\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "ClothingShop.Core\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Core\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "ClothingShop.Core\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T09:26:55.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250310091648_UpdateBaseEntity.cs",
+              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Infrastructure\\Migrations\\20250310091648_UpdateBaseEntity.cs",
+              "RelativeDocumentMoniker": "ClothingShop.Infrastructure\\Migrations\\20250310091648_UpdateBaseEntity.cs",
+              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Infrastructure\\Migrations\\20250310091648_UpdateBaseEntity.cs",
+              "RelativeToolTip": "ClothingShop.Infrastructure\\Migrations\\20250310091648_UpdateBaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T09:16:48.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "ClothingShop.Application\\DTOs\\ProductDto.cs",
+              "ToolTip": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "ClothingShop.Application\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T07:29:40.376Z"
             }
           ]
         }
