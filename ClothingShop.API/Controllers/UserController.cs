@@ -22,7 +22,7 @@ namespace ClothingShop.API.Controllers
             return Ok(result);   
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id}")]    
         public async Task<IActionResult> GetUserByIdAsync(int id)
         {
             var user = await _userService.GetUserByIdAsync(id);

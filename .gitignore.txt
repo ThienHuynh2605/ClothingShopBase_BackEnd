@@ -120,6 +120,8 @@ _TeamCity*
 *.coveragexml
 
 *.vsidx
+*.suo
+*.json
 
 # NCrunch
 _NCrunch_*
