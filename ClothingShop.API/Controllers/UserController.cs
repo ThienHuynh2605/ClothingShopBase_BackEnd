@@ -19,7 +19,7 @@ namespace ClothingShop.API.Controllers
         public async Task<IActionResult> CreateUserAsync(UserDto userDto)
         {
             var result = await _userService.CreateUserAsync(userDto);
-            return Ok(result);
+            return Ok(result);   
         }
 
         [HttpGet("{id}")]
