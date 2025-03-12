@@ -121,7 +121,7 @@ namespace ClothingShop.Application.Services
         /// <param name="id">The user Id.</param>
         /// <returns>True if the delete operation is successful.</returns>
         public async Task<bool> DeleteUserAsync(int id)
-        {
+        {    
             return await _userRepository.DeleteUserAsync(id);
         }
     }
