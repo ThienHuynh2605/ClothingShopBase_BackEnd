@@ -121,7 +121,7 @@ _TeamCity*
 
 *.vsidx
 *.suo
-*.json
+appsettings.Development.json
 
 # NCrunch
 _NCrunch_*
