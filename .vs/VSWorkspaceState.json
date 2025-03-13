@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ClothingShop.API",
+    "\\ClothingShop.API\\Controllers",
+    "\\ClothingShop.Application",
+    "\\ClothingShop.Application\\IServices",
+    "\\ClothingShop.Core",
+    "\\ClothingShop.Core\\Common",
+    "\\ClothingShop.Core\\Entities",
+    "\\ClothingShop.Core\\Enums",
+    "\\Documents"
+  ],
+  "SelectedNode": "\\ClothingShop.Core\\Enums\\Role.cs",
+  "PreviewInSolutionExplorer": false
+}
