@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Core\\ClothingShop.Core.csproj": {}
+    "D:\\Desktop\\backend-c#\\clothing_shop_backend\\ClothingShop.Core\\ClothingShop.Core.csproj": {}
   },
   "projects": {
-    "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Core\\ClothingShop.Core.csproj": {
+    "D:\\Desktop\\backend-c#\\clothing_shop_backend\\ClothingShop.Core\\ClothingShop.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Core\\ClothingShop.Core.csproj",
+        "projectUniqueName": "D:\\Desktop\\backend-c#\\clothing_shop_backend\\ClothingShop.Core\\ClothingShop.Core.csproj",
         "projectName": "ClothingShop.Core",
-        "projectPath": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Core\\ClothingShop.Core.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Core\\obj\\",
+        "projectPath": "D:\\Desktop\\backend-c#\\clothing_shop_backend\\ClothingShop.Core\\ClothingShop.Core.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\backend-c#\\clothing_shop_backend\\ClothingShop.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,7 +42,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

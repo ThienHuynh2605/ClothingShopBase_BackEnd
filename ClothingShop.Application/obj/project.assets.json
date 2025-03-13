@@ -2781,23 +2781,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
+    "C:\\Users\\DELL\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\ClothingShop.Application.csproj",
+      "projectUniqueName": "D:\\Desktop\\backend-c#\\clothing_shop_backend\\ClothingShop.Application\\ClothingShop.Application.csproj",
       "projectName": "ClothingShop.Application",
-      "projectPath": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\ClothingShop.Application.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Application\\obj\\",
+      "projectPath": "D:\\Desktop\\backend-c#\\clothing_shop_backend\\ClothingShop.Application\\ClothingShop.Application.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "D:\\Desktop\\backend-c#\\clothing_shop_backend\\ClothingShop.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2812,8 +2812,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Infrastructure\\ClothingShop.Infrastructure.csproj": {
-              "projectPath": "D:\\PROGRAM\\.Net\\VisualStudio\\ClothingShopBase\\ClothingShop.Infrastructure\\ClothingShop.Infrastructure.csproj"
+            "D:\\Desktop\\backend-c#\\clothing_shop_backend\\ClothingShop.Infrastructure\\ClothingShop.Infrastructure.csproj": {
+              "projectPath": "D:\\Desktop\\backend-c#\\clothing_shop_backend\\ClothingShop.Infrastructure\\ClothingShop.Infrastructure.csproj"
             }
           }
         }
@@ -2826,7 +2826,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -2855,7 +2855,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
