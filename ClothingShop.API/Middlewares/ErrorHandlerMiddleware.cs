@@ -2,7 +2,7 @@
 using System.Net;
 using ClothingShop.Core.Exceptions;
 using Microsoft.AspNetCore.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;        
 
 namespace ClothingShop.API.Middlewares
 {
