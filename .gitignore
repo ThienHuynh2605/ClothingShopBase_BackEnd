@@ -369,3 +369,4 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 >>>>>>> 0f9f24a03bed0e36a8e8151061ffcb9491bdcba3
+/ClothingShop.API/appsettings.json
