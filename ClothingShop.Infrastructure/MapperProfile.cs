@@ -11,6 +11,10 @@ namespace ClothingShop.Infrastructure
             .ForMember(dest => dest.Id, opt => opt.Ignore())
             .ForAllMembers(opt => opt.Condition(
                 (src, dest, srcMember) => srcMember != null));
+
+            CreateMap<Product, Product>()
+                .ForMember(dest => dest.Id, opt => opt.Ignore())
+                .ForAllMembers(opt => opt.Condition((src, dest, srcMember) => srcMember != null));
         }
     }
 }
