@@ -4,6 +4,7 @@ using ClothingShop.Application.IServices;
 using ClothingShop.Application.Mappers;
 using ClothingShop.Application.Services;
 using ClothingShop.Infrastructure;
+using ClothingShop.Infrastructure.IRepositories;
 using ClothingShop.Infrastructure.Persistence;
 using ClothingShop.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Http.Features;
@@ -14,13 +15,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddInfrastructure(builder.Configuration);
 
 // Add Dependency Injection for Repository
-//builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 // Add Dependency Injection for Service
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 // Add AutoMapper in Service
 builder.Services.AddAutoMapper(typeof(UserMapping));
+builder.Services.AddAutoMapper(typeof(ProductMapping));
 
 // Add AutoMapper in Repository
 builder.Services.AddAutoMapper(typeof(MapperProfile));
