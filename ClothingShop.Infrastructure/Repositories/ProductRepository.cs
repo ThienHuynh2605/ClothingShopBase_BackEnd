@@ -67,11 +67,11 @@ namespace ClothingShop.Infrastructure.Repositories
 
         public async Task<bool> SoftDeleteProductAsync(int id)
         {
-            var user = await GetProductByIdAsync(id);
-            if(user != null)
+            var product = await GetProductByIdAsync(id);
+            if(product != null)
             {
-                user.IsDeleted = true;
-                user.DeleteAt = DateTime.Now;
+                product.IsDeleted = true;
+                product.DeleteAt = DateTime.Now;
                 await _context.SaveChangesAsync();
             }
             return true;

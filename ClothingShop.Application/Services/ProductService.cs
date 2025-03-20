@@ -19,9 +19,9 @@ namespace ClothingShop.Application.Services
             _productRepository = productRepository;
             _mapper = mapper;
         }
-        public async Task<bool> CreateProductAsync(ProductDto ProductDto)
+        public async Task<bool> CreateProductAsync(ProductDto productDto)
         {
-            var product = _mapper.Map<Product>(ProductDto);
+            var product = _mapper.Map<Product>(productDto);
             return await _productRepository.CreateProductAsync(product);
         }
 
