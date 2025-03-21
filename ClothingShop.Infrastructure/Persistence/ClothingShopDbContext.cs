@@ -13,6 +13,7 @@ namespace ClothingShop.Infrastructure.Persistence
 
         public DbSet<User> Users { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<ProductVariant> ProductVariants { get; set; }
         
     }
 }
