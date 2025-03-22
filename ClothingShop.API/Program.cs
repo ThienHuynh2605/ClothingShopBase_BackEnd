@@ -17,14 +17,17 @@ builder.Services.AddInfrastructure(builder.Configuration);
 // Add Dependency Injection for Repository
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IProductVariantRepository, ProductVariantRepository>();
 
 // Add Dependency Injection for Service
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProductVariantService, ProductVariantService>();
 
 // Add AutoMapper in Service
 builder.Services.AddAutoMapper(typeof(UserMapping));
 builder.Services.AddAutoMapper(typeof(ProductMapping));
+builder.Services.AddAutoMapper(typeof(ProductVariantMapping));
 
 // Add AutoMapper in Repository
 builder.Services.AddAutoMapper(typeof(MapperProfile));
