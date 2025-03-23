@@ -18,11 +18,7 @@ namespace ClothingShop.Infrastructure
             CreateMap<ProductVariant, ProductVariant>()
                .ForMember(dest => dest.Id, opt => opt.Ignore())
                .ForAllMembers(opt => opt.Condition((src, dest, srcMember) => srcMember != null));
-            CreateMap<ProductImage, ProductImage>()
-                          .ForMember(dest => dest.Id, opt => opt.Ignore())
-                          .ForAllMembers(opt => opt.Condition((src, dest, srcMember) => srcMember != null));
         }
-
        
         }
 }

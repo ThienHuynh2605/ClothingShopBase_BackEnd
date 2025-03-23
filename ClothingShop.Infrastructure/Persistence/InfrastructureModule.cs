@@ -18,7 +18,6 @@ namespace ClothingShop.Infrastructure.Persistence
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IProductVariantRepository, ProductVariantRepository>();
-            services.AddScoped<IProductImageRepository, ProductImageRepository>();
 
             return services;
         } 
