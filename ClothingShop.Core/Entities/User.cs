@@ -11,5 +11,7 @@ namespace ClothingShop.Core.Entities
         public string Phone { get; set; }
         public string Photo {  get; set; }
         public Role Role { get; set; }
+
+        public UserAccount Account { get; set; }
     }
 }

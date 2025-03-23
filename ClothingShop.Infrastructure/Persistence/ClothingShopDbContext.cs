@@ -12,8 +12,19 @@ namespace ClothingShop.Infrastructure.Persistence
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<UserAccount> UsersAccounts { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductVariant> ProductVariants { get; set; }
-        
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>()
+                .HasOne(s => s.Account)
+                .WithOne(s => s.User)
+                .HasForeignKey<UserAccount>(s => s.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+        }
+
     }
 }
