@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ClothingShop.API.Controllers
 {
-    [Route("api/product")]
+    [Route("api/product/variant")]
     [ApiController]
     public class ProductVariantController: ControllerBase
     {
