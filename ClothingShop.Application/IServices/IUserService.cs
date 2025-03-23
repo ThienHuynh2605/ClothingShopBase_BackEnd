@@ -6,8 +6,8 @@ namespace ClothingShop.Application.IServices
 {
     public interface IUserService
     {
-        Task<bool> CreateUserAsync(UserDto userDto);
-        Task<GetUserDto> GetUserByIdAsync(int id);
+        Task<bool> CreateUserAsync(CreateUserDto userDto);
+        Task<GetUserByIdDto> GetUserByIdAsync(int id);
         Task<Pagination<GetUserDto>> GetUserAsync(int page, int pageSize);
         Task<bool> UpdateUserAsync(int id, UserDto userDto); 
         Task<bool> SoftDeleteUserAsync(int id);

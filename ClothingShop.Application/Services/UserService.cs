@@ -32,7 +32,7 @@ namespace ClothingShop.Application.Services
         /// </summary>
         /// <param name="userDto">The user DTO containing user details.</param>
         /// <returns>True if the operation is successful.</returns>
-        public async Task<bool> CreateUserAsync(UserDto userDto)
+        public async Task<bool> CreateUserAsync(CreateUserDto userDto)
         {
             var user = _mapper.Map<User>(userDto);
             return await _userRepository.CreateUserAsync(user);
@@ -43,10 +43,10 @@ namespace ClothingShop.Application.Services
         /// </summary>
         /// <param name="id">The user Id.</param>
         /// <returns>A DTO containing user details.</returns>
-        public async Task<GetUserDto> GetUserByIdAsync(int id)
+        public async Task<GetUserByIdDto> GetUserByIdAsync(int id)
         {
             var user = await _userRepository.GetUserByIdAsync(id);
-            var getUser = _mapper.Map<GetUserDto>(user);
+            var getUser = _mapper.Map<GetUserByIdDto>(user);
             return getUser;
         }
 

@@ -16,7 +16,7 @@ namespace ClothingShop.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateUserAsync(UserDto userDto)
+        public async Task<IActionResult> CreateUserAsync(CreateUserDto userDto)
         {
             var result = await _userService.CreateUserAsync(userDto);
             return Ok(result);   

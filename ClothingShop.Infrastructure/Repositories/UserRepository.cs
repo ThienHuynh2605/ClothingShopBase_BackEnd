@@ -46,8 +46,8 @@ namespace ClothingShop.Infrastructure.Repositories
         public async Task<User> GetUserByIdAsync(int id)
         {
             var user = await _context.Users
-                .Where(s => s.IsDeleted == false)
-                .FirstOrDefaultAsync(x => x.Id == id);
+                .Include(u => u.Account)
+                .FirstOrDefaultAsync(x => x.Id == id && !x.IsDeleted);
             if (user == null)
             {
                 throw new NotFoundException("User is not found.");
@@ -105,6 +105,12 @@ namespace ClothingShop.Infrastructure.Repositories
             {
                 user.IsDeleted = true;
                 user.DeleteAt = DateTime.Now;
+
+                if(user.Account != null)
+                {
+                    user.Account.IsDeleted = true;
+                    user.Account.DeleteAt = DateTime.Now;
+                }
             }
             await _context.SaveChangesAsync();
             return true;
@@ -134,7 +140,13 @@ namespace ClothingShop.Infrastructure.Repositories
         /// <returns>True if the delete operation is successful.</returns>
         public async Task<bool> DeleteUserAsync(int id)
         {
-            var user = await GetUserByIdAsync(id);
+            var user = await _context.Users
+                .Include(u => u.Account)
+                .FirstOrDefaultAsync(x => x.Id == id);
+            if (user == null)
+            {
+                throw new NotFoundException("User is not found.");
+            }
             _context.Users.Remove(user);
             await _context.SaveChangesAsync();
             return true;
