@@ -16,6 +16,7 @@ namespace ClothingShop.Core.Entities
         public string Name { get; set; }
 
         public    ICollection<ProductVariant> ProductVariants { get; set; } = new List<ProductVariant>();
+        public    ICollection<ProductImage> ProductImages { get; set; } = new List<ProductImage>();
         
     }
 }
