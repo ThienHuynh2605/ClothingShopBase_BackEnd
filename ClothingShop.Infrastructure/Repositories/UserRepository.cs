@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using System.Net;
+using AutoMapper;
 using ClothingShop.Core.Entities;
 using ClothingShop.Core.Exceptions;
 using ClothingShop.Infrastructure.Persistence;
@@ -37,6 +38,13 @@ namespace ClothingShop.Infrastructure.Repositories
             return true;
         }
 
+        public async Task<bool> CreateAddressAsync(UserAddress address)
+        {
+            await _context.UsersAddresses.AddAsync(address);
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
         /// <summary>
         /// Retrieves a user by Id, ensuring it is not soft-deleted.
         /// </summary>
@@ -47,6 +55,7 @@ namespace ClothingShop.Infrastructure.Repositories
         {
             var user = await _context.Users
                 .Include(u => u.Account)
+                .Include(s => s.Addresses)
                 .FirstOrDefaultAsync(x => x.Id == id && !x.IsDeleted);
             if (user == null)
             {
@@ -93,6 +102,21 @@ namespace ClothingShop.Infrastructure.Repositories
             return true;
         }
 
+        public async Task<bool> UpdateAddressAsync(int id, UserAddress address)
+        {
+            var existingAddress = await _context.UsersAddresses
+                .Where(s => s.IsDeleted == false)
+                .FirstOrDefaultAsync(s => s.Id == id);
+            if (existingAddress == null)
+            {
+                throw new NotFoundException("User address is not found.");
+            }
+            _mapper.Map(address, existingAddress);
+            existingAddress.UpdateAt = DateTime.Now;
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
         /// <summary>
         /// Soft deletes a user by setting the IsDeleted flag.
         /// </summary>
@@ -111,7 +135,29 @@ namespace ClothingShop.Infrastructure.Repositories
                     user.Account.IsDeleted = true;
                     user.Account.DeleteAt = DateTime.Now;
                 }
+
+                if (user.Addresses != null)
+                {
+                    user.Addresses.ForEach(s => s.IsDeleted = true);
+                    user.Addresses.ForEach(s => s.DeleteAt = DateTime.Now);
+                }
             }
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<bool> SoftDeleteAddressAsync(int id)
+        {
+            var address = await _context.UsersAddresses
+                .Where(s => s.IsDeleted == false)
+                .FirstOrDefaultAsync (s => s.Id == id);
+
+            if (address != null)
+            {
+                address.IsDeleted = true;
+                address.DeleteAt = DateTime.Now;
+            }
+            else throw new NotFoundException("Address is not found.");
             await _context.SaveChangesAsync();
             return true;
         }

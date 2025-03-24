@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ClothingShop.Application.DTOs.UserAccountDtos;
+using ClothingShop.Application.DTOs.UserAddressDtos;
 using ClothingShop.Application.DTOs.UserDtos;
 using ClothingShop.Core.Entities;
 
@@ -15,6 +16,10 @@ namespace ClothingShop.Application.Mappers
             CreateMap<User, CreateUserDto>().ReverseMap();
 
             CreateMap<UserAccount, UserAccountDto>().ReverseMap();
+
+            CreateMap<UserAddress, UserAddressDto>().ReverseMap();
+            CreateMap<UserAddress, GetUserAddressDto>().ReverseMap();
+            CreateMap<UserAddress, CreateUserAddressDto>().ReverseMap();
         }
     }
 }

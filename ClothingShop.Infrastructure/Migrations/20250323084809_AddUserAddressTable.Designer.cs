@@ -4,6 +4,7 @@ using ClothingShop.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ClothingShop.Infrastructure.Migrations
 {
     [DbContext(typeof(ClothingShopDbContext))]
-    partial class ClothingShopDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250323084809_AddUserAddressTable")]
+    partial class AddUserAddressTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -214,7 +217,7 @@ namespace ClothingShop.Infrastructure.Migrations
                     b.ToTable("UsersAccounts");
                 });
 
-            modelBuilder.Entity("ClothingShop.Core.Entities.UserAddress", b =>
+            modelBuilder.Entity("ClothingShop.Core.Entities.UserAdress", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -247,7 +250,7 @@ namespace ClothingShop.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("UsersAddresses");
+                    b.ToTable("UsersAdresses");
                 });
 
             modelBuilder.Entity("ClothingShop.Core.Entities.ProductImage", b =>
@@ -283,10 +286,10 @@ namespace ClothingShop.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("ClothingShop.Core.Entities.UserAddress", b =>
+            modelBuilder.Entity("ClothingShop.Core.Entities.UserAdress", b =>
                 {
                     b.HasOne("ClothingShop.Core.Entities.User", "User")
-                        .WithMany("Addresses")
+                        .WithMany("Adresses")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -305,7 +308,7 @@ namespace ClothingShop.Infrastructure.Migrations
                 {
                     b.Navigation("Account");
 
-                    b.Navigation("Addresses");
+                    b.Navigation("Adresses");
                 });
 #pragma warning restore 612, 618
         }

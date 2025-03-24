@@ -11,5 +11,8 @@ namespace ClothingShop.Infrastructure.Repositories
         Task<bool> SoftDeleteUserAsync(int id);
         Task<bool> RestoreUserAsync(int id);
         Task<bool> DeleteUserAsync(int id);
+        Task<bool> CreateAddressAsync(UserAddress address);
+        Task<bool> UpdateAddressAsync(int id, UserAddress address);
+        Task<bool> SoftDeleteAddressAsync(int id);
     }
 }

@@ -1,4 +1,5 @@
-﻿using ClothingShop.Application.DTOs.UserDtos;
+﻿using ClothingShop.Application.DTOs.UserAddressDtos;
+using ClothingShop.Application.DTOs.UserDtos;
 using ClothingShop.Application.IServices;
 using ClothingShop.Core.Exceptions;
 using Microsoft.AspNetCore.Mvc;
@@ -22,6 +23,13 @@ namespace ClothingShop.API.Controllers
             return Ok(result);   
         }
 
+        [HttpPost("address")]
+        public async Task<IActionResult> CreateAddressAsync(CreateUserAddressDto createUserAddressDto)
+        {
+            var result = await _userService.CreateAddressAsync(createUserAddressDto);
+            return Ok(result);
+        }
+
         [HttpGet("{id}")]        
         public async Task<IActionResult> GetUserByIdAsync(int id)
         {
@@ -43,12 +51,27 @@ namespace ClothingShop.API.Controllers
             return Ok(result);
         }
 
+        [HttpPut("address/{id}")]
+        public async Task<IActionResult> UpdateAddressAsync(int id, [FromBody] UserAddressDto addressDto)
+        {
+            var result = await _userService.UpdateAddressAsync(id, addressDto);
+            return Ok(result);
+        }
+
         [HttpDelete("soft-delete/{id}")]
         public async Task<IActionResult> SoftDeleteUserAsync(int id)
         {
             var result = await _userService.SoftDeleteUserAsync(id);
             return Ok(result);
         }
+
+        [HttpDelete("soft-delete/address/{id}")]
+        public async Task<IActionResult> SoftDeleteAddressAsync(int id)
+        {
+            var result = await _userService.SoftDeleteAddressAsync(id);
+            return Ok(result);
+        }
+
 
         [HttpPost("restore/{id}")]
         public async Task<IActionResult> RestoreUserAsync(int id)

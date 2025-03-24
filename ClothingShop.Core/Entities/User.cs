@@ -13,5 +13,6 @@ namespace ClothingShop.Core.Entities
         public Role Role { get; set; }
 
         public UserAccount Account { get; set; }
+        public List<UserAddress> Addresses { get; set; }
     }
 }

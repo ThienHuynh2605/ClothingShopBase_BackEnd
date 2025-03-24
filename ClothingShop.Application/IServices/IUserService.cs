@@ -1,4 +1,5 @@
-﻿using ClothingShop.Application.DTOs.UserDtos;
+﻿using ClothingShop.Application.DTOs.UserAddressDtos;
+using ClothingShop.Application.DTOs.UserDtos;
 using ClothingShop.Core;
 using ClothingShop.Core.Entities;
 
@@ -13,5 +14,8 @@ namespace ClothingShop.Application.IServices
         Task<bool> SoftDeleteUserAsync(int id);
         Task<bool> RestoreUserAsync(int id);   
         Task<bool> DeleteUserAsync(int id);
+        Task<bool> CreateAddressAsync(CreateUserAddressDto createUserAddressDto);
+        Task<bool> UpdateAddressAsync(int id, UserAddressDto addressDto);
+        Task<bool> SoftDeleteAddressAsync(int id);
     }
 }
