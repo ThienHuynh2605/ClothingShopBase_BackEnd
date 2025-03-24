@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using ClothingShop.Application.DTOs.UserAddressDtos;
 using ClothingShop.Application.DTOs.UserDtos;
 using ClothingShop.Application.IServices;
 using ClothingShop.Core;
@@ -36,6 +37,12 @@ namespace ClothingShop.Application.Services
         {
             var user = _mapper.Map<User>(userDto);
             return await _userRepository.CreateUserAsync(user);
+        }
+
+        public async Task<bool> CreateAddressAsync(CreateUserAddressDto createUserAddressDto)
+        {
+            var address = _mapper.Map<UserAddress>(createUserAddressDto);
+            return await _userRepository.CreateAddressAsync(address);
         }
 
         /// <summary>
@@ -95,6 +102,12 @@ namespace ClothingShop.Application.Services
             return await _userRepository.UpdateUserAsync(id, user);
         }
 
+        public async Task<bool> UpdateAddressAsync(int id, UserAddressDto addressDto)
+        {
+            var address = _mapper.Map<UserAddress>(addressDto);
+            return await _userRepository.UpdateAddressAsync(id, address);
+        }
+
         /// <summary>
         /// Soft deletes a user by setting the IsDeleted flag.
         /// </summary>
@@ -103,6 +116,11 @@ namespace ClothingShop.Application.Services
         public async Task<bool> SoftDeleteUserAsync(int id)
         {
             return await _userRepository.SoftDeleteUserAsync(id);
+        }
+
+        public async Task<bool> SoftDeleteAddressAsync(int id)
+        {
+            return await _userRepository.SoftDeleteAddressAsync(id);
         }
 
         /// <summary>
