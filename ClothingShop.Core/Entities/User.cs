@@ -14,5 +14,6 @@ namespace ClothingShop.Core.Entities
 
         public UserAccount Account { get; set; }
         public List<UserAddress> Addresses { get; set; }
+        public List<Cart> Carts { get; set; }
     }
 }

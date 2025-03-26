@@ -44,19 +44,19 @@ namespace ClothingShop.API.Controllers
             return Ok(user);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateUserAsync(int id,[FromBody] UserDto userDto)
-        {
-            var result = await _userService.UpdateUserAsync(id, userDto);
-            return Ok(result);
-        }
+        //[HttpPut("{id}")]
+        //public async Task<IActionResult> UpdateUserAsync(int id,[FromBody] UserDto userDto)
+        //{
+        //    var result = await _userService.UpdateUserAsync(id, userDto);
+        //    return Ok(result);
+        //}
 
-        [HttpPut("address/{id}")]
-        public async Task<IActionResult> UpdateAddressAsync(int id, [FromBody] UserAddressDto addressDto)
-        {
-            var result = await _userService.UpdateAddressAsync(id, addressDto);
-            return Ok(result);
-        }
+        //[HttpPut("address/{id}")]
+        //public async Task<IActionResult> UpdateAddressAsync(int id, [FromBody] UserAddressDto addressDto)
+        //{
+        //    var result = await _userService.UpdateAddressAsync(id, addressDto);
+        //    return Ok(result);
+        //}
 
         [HttpDelete("soft-delete/{id}")]
         public async Task<IActionResult> SoftDeleteUserAsync(int id)

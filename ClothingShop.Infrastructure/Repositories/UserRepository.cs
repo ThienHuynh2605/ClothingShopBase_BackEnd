@@ -3,6 +3,7 @@ using AutoMapper;
 using ClothingShop.Core.Entities;
 using ClothingShop.Core.Exceptions;
 using ClothingShop.Infrastructure.Persistence;
+using ClothingShop.Infrastructure.Repositories.GenericRepository;
 using Microsoft.EntityFrameworkCore;
 
 namespace ClothingShop.Infrastructure.Repositories
@@ -10,22 +11,18 @@ namespace ClothingShop.Infrastructure.Repositories
     /// <summary>
     /// Repository class for handling User-related database operations.
     /// </summary>
-    public class UserRepository : IUserRepository
+    public class UserRepository : BaseRepository<User> ,IUserRepository
     {
-        public readonly ClothingShopDbContext _context;
-        public readonly IMapper _mapper;
+        //public readonly ClothingShopDbContext _context;
+        //public readonly IMapper _mapper;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="UserRepository"/> class
         /// </summary>
         /// <param name="context">The database context.</param>
         /// <param name="mapper">The AutoMapper instance.</param>
-        public UserRepository(ClothingShopDbContext context, IMapper mapper)
-        {
-            _context = context;
-            _mapper = mapper;
-        }
-
+        public UserRepository(ClothingShopDbContext context) : base(context) { }
+      
         /// <summary>
         /// Creates a new user asynchronously.
         /// </summary>
@@ -87,35 +84,35 @@ namespace ClothingShop.Infrastructure.Repositories
         /// <param name="user">The updated user entity.</param>
         /// <returns>True if the update is successful.</returns>
         /// <exception cref="NotFoundException">Thrown if the user is not found.</exception>
-        public async Task<bool> UpdateUserAsync(int id, User user)
-        {
-            var existingUser = await _context.Users
-                .Where(s => s.IsDeleted == false)
-                .FirstOrDefaultAsync(s => s.Id == id);
-            if (existingUser == null)
-            {
-                throw new NotFoundException("User is not found.");
-            }
-            _mapper.Map(user, existingUser);
-            existingUser.UpdateAt = DateTime.Now;
-            await _context.SaveChangesAsync();
-            return true;
-        }
+        //public async Task<bool> UpdateUserAsync(int id, User user)
+        //{
+        //    var existingUser = await _context.Users
+        //        .Where(s => s.IsDeleted == false)
+        //        .FirstOrDefaultAsync(s => s.Id == id);
+        //    if (existingUser == null)
+        //    {
+        //        throw new NotFoundException("User is not found.");
+        //    }
+        //    _mapper.Map(user, existingUser);
+        //    existingUser.UpdateAt = DateTime.Now;
+        //    await _context.SaveChangesAsync();
+        //    return true;
+        //}
 
-        public async Task<bool> UpdateAddressAsync(int id, UserAddress address)
-        {
-            var existingAddress = await _context.UsersAddresses
-                .Where(s => s.IsDeleted == false)
-                .FirstOrDefaultAsync(s => s.Id == id);
-            if (existingAddress == null)
-            {
-                throw new NotFoundException("User address is not found.");
-            }
-            _mapper.Map(address, existingAddress);
-            existingAddress.UpdateAt = DateTime.Now;
-            await _context.SaveChangesAsync();
-            return true;
-        }
+        //public async Task<bool> UpdateAddressAsync(int id, UserAddress address)
+        //{
+        //    var existingAddress = await _context.UsersAddresses
+        //        .Where(s => s.IsDeleted == false)
+        //        .FirstOrDefaultAsync(s => s.Id == id);
+        //    if (existingAddress == null)
+        //    {
+        //        throw new NotFoundException("User address is not found.");
+        //    }
+        //    _mapper.Map(address, existingAddress);
+        //    existingAddress.UpdateAt = DateTime.Now;
+        //    await _context.SaveChangesAsync();
+        //    return true;
+        //}
 
         /// <summary>
         /// Soft deletes a user by setting the IsDeleted flag.

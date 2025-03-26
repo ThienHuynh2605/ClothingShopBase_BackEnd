@@ -9,7 +9,7 @@ namespace ClothingShop.Application.IServices
         Task<bool> CreateProductAsync(ProductDto productDto);
         Task<ProductDto> GetProductByIdAsync(int id);
         Task<Pagination<ProductDto>> GetProductAsync(int page, int pageSize);
-        Task<bool> UpdateProductAsync(int id, ProductDto productDto);
+        //Task<bool> UpdateProductAsync(int id, ProductDto productDto);
         Task<bool> SoftDeleteProductAsync(int id);
         Task<bool> RestoreProductAsync(int id);
         Task<bool> DeleteProductAsync(int id);
