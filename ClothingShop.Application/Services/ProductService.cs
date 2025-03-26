@@ -58,11 +58,11 @@ namespace ClothingShop.Application.Services
             };
         }
 
-        public async Task<bool> UpdateProductAsync(int id, ProductDto productDto)
-        {
-            var product = _mapper.Map<Product>(productDto);
-            return await _productRepository.UpdateProductAsync(id, product);
-        }
+        //public async Task<bool> UpdateProductAsync(int id, ProductDto productDto)
+        //{
+        //    var product = _mapper.Map<Product>(productDto);
+        //    return await _productRepository.UpdateProductAsync(id, product);
+        //}
 
 
         public async Task<bool> SoftDeleteProductAsync(int id)

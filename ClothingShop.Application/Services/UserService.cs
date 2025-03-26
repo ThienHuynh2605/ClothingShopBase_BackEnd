@@ -96,17 +96,17 @@ namespace ClothingShop.Application.Services
         /// <param name="id">The user Id.</param>
         /// <param name="userDto">The updated user detail.</param>
         /// <returns>True if the update is successful.</returns>
-        public async Task<bool> UpdateUserAsync(int id, UserDto userDto)
-        {
-            var user = _mapper.Map<User>(userDto);
-            return await _userRepository.UpdateUserAsync(id, user);
-        }
+        //public async Task<bool> UpdateUserAsync(int id, UserDto userDto)
+        //{
+        //    var user = _mapper.Map<User>(userDto);
+        //    return await _userRepository.UpdateUserAsync(id, user);
+        //}
 
-        public async Task<bool> UpdateAddressAsync(int id, UserAddressDto addressDto)
-        {
-            var address = _mapper.Map<UserAddress>(addressDto);
-            return await _userRepository.UpdateAddressAsync(id, address);
-        }
+        //public async Task<bool> UpdateAddressAsync(int id, UserAddressDto addressDto)
+        //{
+        //    var address = _mapper.Map<UserAddress>(addressDto);
+        //    return await _userRepository.UpdateAddressAsync(id, address);
+        //}
 
         /// <summary>
         /// Soft deletes a user by setting the IsDeleted flag.
