@@ -1,0 +1,16 @@
+# This is an example Starter pipeline configuration
+# Use a skeleton to build, test and deploy using manual and parallel steps
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+
+image: atlassian/default-image:3
+
+pipelines:
+  default:
+   - step:
+        name: Sync to GitHub
+        script:
+          - git clone --mirror https://thienhuynh_workspace-admin@bitbucket.org/thienhuynh_workspace/clothing_shop_backend.git
+          - cd clothing_shop_backend
+          - git remote add github https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/ThienHuynh2605/ClothingShopBase_BackEnd.git
+          - git push --mirror github
